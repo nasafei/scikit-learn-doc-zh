@@ -1,2 +1,2 @@
 # scikit-learn-doc-zh
-scikit-learn 官方文档中文翻译版
+scikit-learn 官方文档-中文版
