@@ -1,81 +1,45 @@
-# scikit-learn-doc-zh
-scikit-learn 官方文档-中文版
+# scikit-learn(sklearn) 官方文档-中文版
+![](doc/en/logos/scikit-learn-logo.png) 
 
-## 安装 virtualenv 和 virtualenvwrapper 来管理环境
+官网地址: [scikit-learn(sklearn)](http://scikit-learn.org): <http://scikit-learn.org>
 
-> 安装 python
+scikit-learn 是基于Python语言的机器学习工具。
+1. 简单高效的数据挖掘和数据分析工具
+2. 可供大家在各种环境中重复使用
+3. 建立在NumPy，SciPy和matplotlib上
+4. 开源，可商业使用 - BSD许可证
 
-`参考链接： http://www.tuicool.com/articles/aueyMn`
-brew install python3
 
-> 安装 pip
+## 预计翻译 [坐等最新版本发布]
 
-```
-wget https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py
-```
+[scikit-learn(sklearn) 1.0](http://scikit-learn.org/stable/documentation.html)（坐等最新版本发布）
 
-> 安装 virtualenv 和 virtualenvwrapper
 
-```
-sudo pip3 install virtualenv
-sudo pip3 install virtualenvwrapper
+## 历史版本
+[scikit-learn(sklearn) 0.18 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181): <http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181>
 
--- 查找 virtualenvwrapper 安装路径 (Mac在 /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh)
-find / -name virtualenvwrapper.sh
 
-mkdir ~/.virtualenvs
-vim ~/.bash_profile (`source ~/.bash_profile`)
+## 贡献者
 
-export WORKON_HOME=~/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5
-source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
-```
+贡献者可自行编辑如下内容.
 
-> 创建虚拟环境
+### 1.0
+* [@jiangzhonglian](https://github.com/jiangzhonglian)（片刻）
 
-```
-mkvirtualenv -p /Library/Frameworks/Python.framework/Versions/2.7/bin/python python2
-mkvirtualenv -p /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 python3
-```
+### 0.18
+请参阅: <http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181>
 
-> 虚拟环境的其他操作
 
-```
-启动: source ~/.virtualenvs/python3/bin/activate
-lsvirtualenv: 列出虚拟环境列表
-mkvirtualenv: 新建虚拟环境
-workon [虚拟环境名称]: 切换虚拟环境
-rmvirtualenv: 删除虚拟环境
-deactivate: 离开虚拟环境 ( source deactivate )
-```
+## 联系方式
+有任何建议反馈, 或想参与文档翻译
 
-## 不想安装 virtualenvwrapper 也可以
 
-```
-cd /home/
-mkdir ~/pyEnv
-virtualenv -p /Library/Frameworks/Python.framework/Versions/2.7/bin/python env_py2
-virtualenv -p /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 env_py3
-
--- 启动
-source env_py3/bin/activate 
--- 关闭
-deactivate 
-```
-
-## pip 安装 相关插件
-
-```
--- WARNING: LaTeX command 'latex' cannot be run (needed for math display), check the imgmath_latex setting
--- 安装latex: http://www.tug.org/mactex/morepackages.html
-
-sudo pip3 install image
-sudo pip3 install matplotlib
-sudo pip3 install docutils==0.12
-sudo pip3 install nose
-sudo pip3 install numpy
-sudo pip3 install scipy
-sudo pip3 install sphinx==1.4.5
-sudo pip3 install scikit-learn
-```
+## 其它中文文档
+* [TensorFlow R1.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030122)
+* [sklearn 0.18 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181)
+* [Spark 2.2.0 中文文档](http://spark.apachecn.org/docs/cn/2.2.0/)
+* [Spark 2.0.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=2883613)
+* [Kudu 1.4.0 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10813594)
+* [Zeppelin 0.7.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030467)
+* [Elasticsearch 5.4 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=4260364)
+* [Kibana 5.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=8159377)
