@@ -24,7 +24,9 @@ scikit-learn 是基于Python语言的机器学习工具。
 贡献者可自行编辑如下内容.
 
 ### 1.0
+* [@wangyangting](https://github.com/wangyangting)（那伊抹微笑）
 * [@jiangzhonglian](https://github.com/jiangzhonglian)（片刻）
+* [@chenyyx](https://github.com/chenyyx)（Joy yx）
 
 ### 0.18
 请参阅: <http://cwiki.apachecn.org/pages/viewpage.action?pageId=10813860>
