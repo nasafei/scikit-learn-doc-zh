@@ -1,15 +1,13 @@
 .. _linear_model:
 
 =========================
-Generalized Linear Models
+广义线性模型
 =========================
 
 .. currentmodule:: sklearn.linear_model
 
-The following are a set of methods intended for regression in which
-the target value is expected to be a linear combination of the input
-variables. In mathematical notion, if :math:`\hat{y}` is the predicted
-value.
+以下是一组用于回归的方法，其中目标值预期是输入变量的线性组合。
+在数学概念中，如果 :math:`\hat{y}` 是预测的值。
 
 .. math::    \hat{y}(w, x) = w_0 + w_1 x_1 + ... + w_p x_p
 
@@ -22,7 +20,7 @@ To perform classification with generalized linear models, see
 
 .. _ordinary_least_squares:
 
-Ordinary Least Squares
+普通最小二乘法
 =======================
 
 :class:`LinearRegression` fits a linear model with coefficients
@@ -38,9 +36,7 @@ solves a problem of the form:
    :align: center
    :scale: 50%
 
-:class:`LinearRegression` will take in its ``fit`` method arrays X, y
-and will store the coefficients :math:`w` of the linear model in its
-``coef_`` member::
+:class:`LinearRegression` 将采用其 ``fit`` 方法数组X，y，并将线性模型的系数 :math:`w` 存储在其 ``coef_``  成员中::
 
     >>> from sklearn import linear_model
     >>> reg = linear_model.LinearRegression()
@@ -63,7 +59,7 @@ example, when data are collected without an experimental design.
    * :ref:`sphx_glr_auto_examples_linear_model_plot_ols.py`
 
 
-Ordinary Least Squares Complexity
+普通最小二乘法复杂度
 ---------------------------------
 
 This method computes the least squares solution using a singular value
